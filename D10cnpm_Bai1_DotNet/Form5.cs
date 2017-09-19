@@ -33,44 +33,37 @@ namespace D10cnpm_Bai1_DotNet
                 for (int i = 1; i <= n; i++)
                 {
                     for (int j = 1; j <= i; j++)
-                    {
                         lbH1.Text = lbH1.Text + "*";
-                    }
+                    
                     lbH1.Text = lbH1.Text + "\n";
 
                 }
 
-                for (int i = 1; i <= n; i++)
+                for(int i=1; i<=n;i++)
                 {
-                    for (int j = i+1; j<=2*n; j++)
-                    {
+                    for(int j= 1; j<=n-i;j++)
                         lbH2.Text = lbH2.Text + " ";
-                    }
-                    for(int j=1; j<=i;j++)
-                    {
+                    for(int t=1; t<=i;t++)
                         lbH2.Text = lbH2.Text + "*";
-                    }
+
                     lbH2.Text = lbH2.Text + "\n";
                 }
 
                 for (int i = n; i >0; i--)
                 {
                     for (int j = i; j >0; j--)
-                    {
                         lbH3.Text = lbH3.Text + "*";
-                    }
+
                     lbH3.Text = lbH3.Text + "\n";
                 }
+
                 for (int i = n; i >=1; i--)
                 {
                     for (int j = n-1; j >=i; j--)
-                    {
                         lbH4.Text = lbH4.Text + " ";
-                    }
                     for (int j = 1; j <= i; j++)
-                    {
                         lbH4.Text = lbH4.Text + "*";
-                    }
+
                     lbH4.Text = lbH4.Text + "\n";
                 }
             }

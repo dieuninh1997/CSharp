@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtN = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.lbH1 = new System.Windows.Forms.Label();
             this.lbH3 = new System.Windows.Forms.Label();
             this.lbH2 = new System.Windows.Forms.Label();
@@ -51,6 +51,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nhập số";
             // 
+            // txtN
+            // 
+            this.txtN.Location = new System.Drawing.Point(41, 25);
+            this.txtN.Name = "txtN";
+            this.txtN.Size = new System.Drawing.Size(199, 20);
+            this.txtN.TabIndex = 1;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -59,13 +66,6 @@
             this.label1.Size = new System.Drawing.Size(19, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "n=";
-            // 
-            // txtN
-            // 
-            this.txtN.Location = new System.Drawing.Point(41, 25);
-            this.txtN.Name = "txtN";
-            this.txtN.Size = new System.Drawing.Size(199, 20);
-            this.txtN.TabIndex = 1;
             // 
             // lbH1
             // 
@@ -81,7 +81,7 @@
             // 
             this.lbH3.AutoSize = true;
             this.lbH3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbH3.Location = new System.Drawing.Point(271, 134);
+            this.lbH3.Location = new System.Drawing.Point(326, 134);
             this.lbH3.Name = "lbH3";
             this.lbH3.Size = new System.Drawing.Size(32, 24);
             this.lbH3.TabIndex = 2;
@@ -91,7 +91,7 @@
             // 
             this.lbH2.AutoSize = true;
             this.lbH2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbH2.Location = new System.Drawing.Point(143, 134);
+            this.lbH2.Location = new System.Drawing.Point(624, 134);
             this.lbH2.Name = "lbH2";
             this.lbH2.Size = new System.Drawing.Size(32, 24);
             this.lbH2.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             this.lbH4.AutoSize = true;
             this.lbH4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbH4.Location = new System.Drawing.Point(417, 134);
+            this.lbH4.Location = new System.Drawing.Point(909, 134);
             this.lbH4.Name = "lbH4";
             this.lbH4.Size = new System.Drawing.Size(32, 24);
             this.lbH4.TabIndex = 4;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 322);
+            this.ClientSize = new System.Drawing.Size(1218, 509);
             this.Controls.Add(this.btnNl);
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.lbH4);
